@@ -1,0 +1,39 @@
+name: internative_assigment
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: 0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+  - family: RobotoSlab
+    fonts:
+    - asset: assets/Roboto_Slab/static/RobotoSlab-Thin.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-ExtraLight.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-Light.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-Regular.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-Medium.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-SemiBold.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-Bold.ttf
+    - asset: assets/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf
+
+  - family: Langar
+    fonts:
+    - asset: assets/Langar/Langar-Regular.ttf
